@@ -1,0 +1,7 @@
+const substract = require("./substract")
+
+test("Properly substracting two numbers", () => {
+    expect(
+        substract(1, 2)
+    ).toBe(-1)
+})

@@ -1,4 +1,4 @@
-function cloneArray(array) {
+const cloneArray = (array) => {
     return [...array]
 }
 
